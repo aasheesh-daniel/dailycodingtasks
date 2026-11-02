@@ -27,8 +27,8 @@ jobs:
 
       - name: Commit generated reports
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "aasheesh-daniel"
+          git config user.email "182431233+aasheesh-daniel@users.noreply.github.com"
           git add reports/
-          git diff --cached --quiet || git commit -m "chore: automated Python report"
+          git diff --cached --quiet || git commit -m "chore: automated Python practice report"
           git push
